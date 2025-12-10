@@ -1,8 +1,10 @@
-//mut use garyo vane matra variable ko value change garna milxa natra mildaina
+//rust ma euta variable ma if else condition rakhnamildo raixa if else condition lai ni expression ko rup ma use garna mildo raixa
 fn main(){
-	let mut x = 5;
-	x = 10;
-	println!("{}", x);
-	println!("Hello World");
-	print!("yeslechai k garxa?");
+	let time = 20;
+	let greeting = if time < 18 {
+	  "Good day."
+	} else {
+	  "Good evening."
+	};
+	println!("{}", greeting);
 }
